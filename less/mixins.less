@@ -1,1 +1,10 @@
 // Mixins in here
+.button(@width: 180px; @bg-color: @eastern-blue; @font-color: @white){
+    @width: @width;
+    background-color: @bg-color;
+    color: @font-color;
+
+    @media @mobile{
+        width: 400px;
+    }
+}
