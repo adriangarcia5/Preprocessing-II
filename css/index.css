@@ -260,3 +260,17 @@ header {
     margin-bottom: 15px;
   }
 }
+.home-img {
+  border-top: 2px dashed lightgrey;
+}
+@media (max-width: 500px) {
+  .home-img {
+    padding: 0px 10px 0px;
+    margin-top: 10px;
+  }
+}
+.home-img .fun-bus {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
