@@ -102,8 +102,16 @@ header{
     width: 75%;
     margin: 0 auto 30px;
 
+    @media @mobile{
+      width: 100%;
+    }
+
     img {
       border-radius: 10px;
+
+      @media @mobile {
+        width: 75%;
+      }
     }
   }
 
@@ -113,15 +121,24 @@ header{
     border-top: 2px dashed @navigation-border;
     justify-content: space-between;
 
+    @media @mobile {
+      display: block;
+      padding: 25px 25px 0;
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
-    }
 
+      @media @mobile {
+        width: 90%;
+      }
+    
     .btn{
-      .button(@width: 180px; @bg-color: @eastern-blue; @font-color: @white)
+      .button(@width: 180px; @bgcolor: @eastern-blue; @fontcolor: @white)
+
+      }
     }
-   
   }
 }// home
 
