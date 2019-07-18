@@ -242,3 +242,21 @@ nav a:hover {
   width: 30%;
   margin-bottom: 30px;
 }
+header {
+  padding: 25px 225px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  header {
+    display: block;
+    padding: 10px 0px 0px;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  header .logo {
+    margin-bottom: 15px;
+  }
+}
